@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serram Systems</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/serram.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/build/script.js"></script>
+</head>
+    
+    <body class = " min-h-screen"> 
+        <style> 
+            body{
+                background-color: #e5e5e5;
+                font-family: "Libre Baskerville", serif;
+                font-style: normal;
+            }  
+    
+            h1{
+                font-family: "Montserrat", sans-serif;
+                font-optical-sizing: auto;
+            }
+        </style>
+    <header>
+        <div class="w-screen bg-[#111827] grid grid-cols-3 items-center pt-5 pb-5 px-10 text-center">
+            <img  class="w-52 " src ="./images/Logo-Test.png">
+            <p ><a class=" text-lg hover:text-xl text-[#c9c3c3] transition-all" href="./index.html">Home</a></p>
+        </div>
+    </header>
+        <div>
+            <h1 class="text-center font-bold m-10 mb-14 text-3xl text-[#2F2F2F]">Digital Download SERRAM POS</h1>
+                    <div  id="myDiv" class="text-center flex gap-5 justify-center mb-14 text-[#2F2F2F]">
+                        
+                        <p class="mt-2 " >Serram full Install - 65MB</p>
+                            <a href="http://www.serram.co.za/SerramFull.zip">
+                                <button type="button" 
+                                onclick= "document.getElementById('myDiv').innerHTML = '<h1>Thank you for Downloading!</h1>'"
+                                class =" select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none hover:text-sm"
+                                type="button"
+                                data-ripple-light="true"
+                                >
+                                Download <i class="fa fa-download"></i></button></a>
+                            <p class="mt-2">Serram Pos Install - 6MB</p>
+                            <a href="http://www.serram.co.za/SerramFull.zip">
+                                <button onclick= "document.getElementById('myDiv').innerHTML = '<h1>Thank you for Downloading!</h1>'"
+                                class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gray-900 text-white shadow-md shadow-gray-900/10 hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none hover:text-sm"
+                                type="button"
+                                data-ripple-light="true"
+                                >
+                                Download <i class="fa fa-download"></i></button>
+                            </a>
+                        
+                    </div>
+                
+        
+                <div class="flex items-center flex-col justify-evenly gap-5 text-lg font-semibold text-[#2F2F2F]">
+                    <p>Serram Manager</p>
+                        <img class="w-2/3 shadow-lg my-5 hover:w-10/12 transition-all cursor-pointer" src="./images/manager.png">
+                    <p>Serram POS</p>
+                    <img class="w-2/3 shadow-lg my-5 hover:w-10/12 transition-all cursor-pointer" src="./images/pos.png">
+                    <p>Serram Restaurant</p>
+                    <img class="w-2/3 shadow-lg mb-10 mt-5 hover:w-10/12 transition-all cursor-pointer" src="./images/restaurant.png">
+
+                </div>
+               
+
+        </div>
+    <footer>
+        <div class="w-screen h-20 bg-[#111827]  bottom-0 left-0 text-[#e5e5e5] flex justify-center text-sm p-3 items-center">
+          <ul>
+            <li class="mb-2"><a class= "hover:text-lg focus:underline focus:text-[#fca311] transition-all" href= "mailto:support@serram.co.za">Support <i class="fa fa-question-circle-o"></i> : support@serram.co.za</li></a>
+            <li><a class= "hover:text-lg focus:underline focus:text-[#fca311] transition-all" href= "mailto:sales@serram.co.za">Sales / Registration <i class="fa fa-shopping-cart"></i> : sales@serram.co.za</li></a>
+
+          </ul>
+        </div>
+    </footer>
+     <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
+    
+
+    
+</body>
+</html>
